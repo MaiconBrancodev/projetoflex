@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;   
+    
+}
+
+header{
+    display: flex;
+    padding: 30px;
+    background-color: #beb9b9;
+}
+
+nav {
+    position: absolute;   
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin:15px;
+}
+
+nav a {
+   
+    color: #000000;
+    font-weight: bold;   
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+   
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+.text-center{
+    text-align: center; 
+    background-color: #d8d7d7;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;    
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-around;
+    border: solid #000000 2px ;
+    padding: 30px 0;    
+}
+
+.btn1{
+    background-color: #000000;
+    color: white;
+    box-sizing: #000 2px 2px 1px;
+    padding: 4px;
+}
+
+.btn2{
+    background-color: #faf8f8;
+    color: rgb(0, 0, 0);
+    box-sizing: #000 4px 4px 2px;
+    padding: 4px;
+}
+.btn3{
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    box-sizing: #000 2px 2px 1px;
+    padding: 4px;
+    
+}
+
+
+.font-size{
+    font-size: 28px;
+    
+}
+.meio{
+    text-align: center;
+    padding: 25px;   
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.item{
+    margin: 15px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+    border: #000 solid 1px;
+    
+}
+.meio2{
+    text-align: center;
+    padding: 15px;   
+}
+
+
+.box2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+.item2{
+    margin: 15px;
+	background: rgb(255, 255, 255);
+	text-align: center;
+    border: #000 solid 1px;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    border: #000 solid 1px;
+}
+
+.off{
+    display: flex;
+    border: #000 solid 1px;
+    justify-content: space-around;    
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.off div{
+    padding: 15px;
+}
+
+.off div h4 , .off div h2, .off div p{
+    padding: 15px;
+} 
+
+.caveira{
+    width: 35%;
+    justify-items: center;
+    align-items: center;
+}
+
+.us{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    text-align: center;    
+    padding: 30px 0;
+    justify-content: center;
+}
+
+
